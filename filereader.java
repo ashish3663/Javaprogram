@@ -17,9 +17,9 @@ public class ReadFileUsingByteStream {
                 // Print the byte read (cast to char for readability)
                 System.out.print((char) byteRead);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
+        // } catch (IOException e) {
+        //     e.printStackTrace();
+        // } finally {
             try {
                 if (inputStream != null) {
                     // Close the FileInputStream
